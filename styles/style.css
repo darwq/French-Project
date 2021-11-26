@@ -81,6 +81,7 @@ a {
   top: 25%;
   left: 50%;
   transform: translate(-100%, -25%);
+  text-shadow: 7px 5px 2px black;
 }
 
 .content p {
@@ -88,13 +89,16 @@ a {
   font-size: 1.2rem;
   top: 50%;
   transform: translate(0, -35%);
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid rgba(200, 200, 0, 0.74);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .container .content h1,
 p {
   margin: 3%;
   color: #fff;
-  text-shadow: 7px 5px 7px grey;
   position: absolute;
 }
 
@@ -105,11 +109,12 @@ p {
   position: relative;
 }
 
-.footer p {
+.footer .copyright {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateX(-100%);
+  color: #fff;
 }
 
 .footer .logos {

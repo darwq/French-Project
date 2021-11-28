@@ -1,5 +1,5 @@
 // VARIABLES
-let lastScrollPosition = 0;
+let lastScrollPosition = 50;
 
 // EVENT LISTENERS
 
@@ -11,6 +11,4 @@ document.addEventListener("scroll", (e) => {
   } else {
     $(".menu").show(200);
   }
-
-  lastScrollPosition = scrollPosition;
 });

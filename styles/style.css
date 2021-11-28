@@ -45,7 +45,7 @@ a {
 .menu .image {
   position: absolute;
   right: 50%;
-  transform: translateX(50%);
+  transform: translate(50%, -5%);
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(to left, red, yellow);
   border-image-slice: 1;
@@ -135,6 +135,15 @@ p {
 
 .logos .fa-facebook {
   color: #06213f;
+}
+
+.menu .quiz {
+  transform: translateX(25%);
+  font-size: 1.5rem;
+}
+
+.menu .quiz li a {
+  color: purple;
 }
 
 /* JAVA-SCRIPT CLASSES */
